@@ -49,12 +49,28 @@ else:
 #     print("магазин закрыт")
 
 #2
-diskontnaikarta=input("есть ли карта постоянного посетителя ")
-caunt=int(input("ведите на  сколько денег вы потратили"))
-if diskontnaikarta == "yes" and caunt>5000:
-    print("вы получаете скидку")
+# diskontnaikarta=input("есть ли карта постоянного посетителя ")
+# caunt=int(input("ведите на  сколько денег вы потратили"))
+# if diskontnaikarta == "yes" and caunt>5000:
+#     print("вы получаете скидку")
+# else:
+#     print("нет не дам скидку")
+
+
+
+#4
+x=int(input())
+y=int(input())
+if x>0 and y>0:
+    print('1 chetvert')
+elif x<0 and y<0:
+    print('3 chetvert')
+elif x>0 and y<0:
+    print('4 chetvert')
 else:
-    print("нет не дам скидку")
+    print('2 chetvert')
+    
+
 
 
 
