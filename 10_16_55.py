@@ -96,4 +96,10 @@
 #     n = n //10
 # print(w)
 
-
+n = int(input())
+total = 0
+for i in range(n):
+    a = int(input())
+    if a // 4 % 4 == 3:
+        total += a
+print(total)
