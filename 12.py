@@ -1,12 +1,9 @@
-from math import *
-
 # * модуль
 # x = -42.42
 # abs_x = abs(x)
 # print(abs_x)
 
 # * Импорт модулей
-import math
 # print(math.pi)
 # print(math.ceil(3.14))
 # print(math.floor(3.14))
@@ -61,10 +58,50 @@ from math import *
 # v = I * n / 1024 / 1024
 # print(v)
 
-L = 5
-N = 7094
-n = 22528
-i = ceil(log2(N))
-I = ceil (L * i /8)
-v = I * n /1024
+# L = 5
+# N = 7094
+# n = 22528
+# i = ceil(log2(N))
+# I = ceil (L * i /8)
+# v = I * n /1024
+# print(v)
+
+# n = int(input())
+# total =  0
+# for i in range(n):
+#     num = int(input())
+#     if num % 3 ==0:
+#         total += num
+# print(total)
+
+# L = 15
+# N = 8
+# n = 20
+# i = ceil(log(N,2))
+# I = ceil ( L* i /8)
+# v = I * n
+# print(v)
+
+# L = 101
+# N = 4100
+# n = 2048
+# i = ceil(log(N,2))
+# I = ceil ( L* i  / 8)
+# v = I * n / 1024
+# print(v)
+
+# L = 252
+# N = 1710
+# n =  4096
+# i = ceil(log(N,2))
+# I = ceil(L * i / 8)
+# v = I * n / 1024
+# print(v)
+
+L = 25
+N = 26
+n = 35
+i = ceil(log(N,2))
+I = ceil (L * i / 8)
+v = I * n
 print(v)
