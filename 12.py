@@ -98,10 +98,14 @@ from math import *
 # v = I * n / 1024
 # print(v)
 
-L = 25
-N = 26
-n = 35
-i = ceil(log(N,2))
-I = ceil (L * i / 8)
-v = I * n
-print(v)
+# L = 25
+# N = 26
+# n = 35
+# i = ceil(log(N,2))
+# I = ceil (L * i / 8)
+# v = I * n
+# print(v)
+
+#тип 2
+
+
