@@ -38,10 +38,20 @@
 #         total+=a
 # print(total)
 
-sdsaasf=int(input())
-m=30001
-for i in range(sdsaasf):
-    a=int(input())
-    if a%3==0 and m>a:
-        m=a
-print(m)
+# sdsaasf=int(input())
+# m=30001
+# for i in range(sdsaasf):
+#     a=int(input())
+#     if a%3==0 and m>a:
+#         m=a
+# print(m)
+
+
+
+num = int(input())
+total = 0
+for i in range(num):
+    a = int(input())
+    if a // 3 % 3 == 1 :
+        total += a
+print(total)
