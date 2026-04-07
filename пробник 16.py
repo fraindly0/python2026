@@ -47,11 +47,21 @@
 # print(m)
 
 
+#
+# num = int(input())
+# total = 0
+# for i in range(num):
+#     a = int(input())
+#     if a // 3 % 3 == 1 :
+#         total += a
+# print(total)
 
-num = int(input())
+
+
 total = 0
-for i in range(num):
-    a = int(input())
-    if a // 3 % 3 == 1 :
-        total += a
+for i in range(5):
+    num = int(input())
+    if num % 4 == 0 and num % 10 == 6:
+        total += num
 print(total)
+
