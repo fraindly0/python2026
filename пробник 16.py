@@ -5,6 +5,8 @@
 #     if a<29 and a>9:
 #         total+=a
 # print(total)
+from math import trunc
+from unittest.mock import file_spec
 
 # gogll=int(input())
 # total=0
@@ -58,10 +60,14 @@
 
 
 
-total = 0
-for i in range(5):
-    num = int(input())
-    if num % 4 == 0 and num % 10 == 6:
-        total += num
-print(total)
+# total = 0
+# for i in range(5):
+#     num = int(input())
+#     if num % 4 == 0 and num % 10 == 6:
+#         total += num
+# print(total)
 
+for x in range(1000):
+    f = not(x>5) and (x>4)
+    if f == True:
+        print(x)

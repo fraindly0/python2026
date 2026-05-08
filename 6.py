@@ -30,3 +30,12 @@
 # for i in range(0,a+1):
 #     total+=i
 # print(total)
+
+# a = int(input())
+# total = 0
+# for i in range(a):
+#     x = int(input())
+#     if x % 6 == 0 and x % 10 == 4:
+#         total += 1
+# print(total)
+
