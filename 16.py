@@ -53,5 +53,27 @@
 # print(s)
 # print(total)
 
+# total = 0
+# num = int(input())
+# for i in range(num):
+#     num1 = int(input())
+#     if num1 // 8 % 8 == 3:
+#         total += num1
+# print(total)
 
+# total = 0
+# num = int(input())
+# for i in range(num):
+#     num1 = int(input())
+#     if num1 % 5 == 3:
+#         total += num1
+# print(total)
+
+# total = 0
+# num = int(input())
+# for i in range(num):
+#     num1 = int(input())
+#     if num1 % 3 == 1 and num1 // 3 % 3 == 2 and num1 // 3 // 3 % 3 == 1:
+#         total += num1
+# print(total)
 
